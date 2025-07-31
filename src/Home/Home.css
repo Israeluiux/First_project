@@ -1,3 +1,27 @@
 .main-section{
     padding: 0 1%;
 }
+
+.body-section{
+    padding: 0 1%;
+    height: auto;
+}
+
+/* .small-cards{
+    padding: 1rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+} */
+
+.small-cards{
+    padding: 1rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1rem;
+}
+
+.head{
+    text-align: center;
+    font-size: 2.5rem;
+}
