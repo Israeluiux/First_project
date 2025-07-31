@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    margin-top: -1rem;
+}
+
+.section{
+    padding: 1rem 9%;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    margin: 0;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #000;
+}
+
+li{
+    list-style: none;
+    margin-left: 2rem;
+}
+
+.cto a{
+    margin-left: .5rem;
+    text-decoration: none;
+    padding: .9rem 1rem;
+    background: #000;
+    color: #fff;
+    border-radius: 1.5rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.cto .login{
+    background: hsl(0, 0%, 90%);
+    color: #000;
+} 
