@@ -14,11 +14,11 @@ const Footer = () => {
                     <input type="text" name="" id="input" placeholder="Subscribe for our newsletter" /><button className="btn">Subscribe</button>
                 </div>
                 {/* right side of the footer */}
-            <div class="footer-right">
-              <div class="right">
-                <div class="h1">Contact us</div>
+            <div className="footer-right">
+              <div className="right">
+                <div className="h1">Contact us</div>
                 <div>
-                  <ul class="list">
+                  <ul className="list">
                     <li>+234 812 3456 7899</li>
                     <li>info@gmail.com</li>
                     <li>
@@ -28,10 +28,10 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div class="right">
-                <div class="h1">Quick links</div>
+              <div className="right">
+                <div className="h1">Quick links</div>
                 <div>
-                  <ul class="list">
+                  <ul className="list">
                     <li>About Us</li>
                     <li>Our Work</li>
                     <li>Our Impact</li>
@@ -39,10 +39,10 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div class="right">
-                <div class="h1">Social Media</div>
+              <div className="right">
+                <div className="h1">Social Media</div>
                 <div>
-                  <ul class="list">
+                  <ul className="list">
                     <li>Instagram</li>
                     <li>LinkedIn</li>
                     <li>X(Twitter)</li>

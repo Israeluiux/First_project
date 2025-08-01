@@ -1,6 +1,7 @@
 import  "./Home.css"
 import Hero from "../Components/Hero/Hero.jsx"
 import Cards from "../Components/Cards/Cards.jsx"
+import Contact from "../Contact/Contact.jsx"
 import Data from "../Components/Data.js"
 // loop through the data
 // select each key
@@ -23,6 +24,7 @@ const Home = () => {
                     }
                 </div>
             </div>
+            <Contact />
         </div>
     )
 }
